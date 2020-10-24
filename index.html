@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <!-- p5.js -->
+    <script src="./p5.min.js"></script>
+    <!-- jQuery -->
+    <script src="./jquery-3.5.1.min.js"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- JS -->
+    <script src="./cubie.js"></script>
+    <script src="./cube.js"></script>
+    <script src="./main.js"></script>
+    <script src="./dom.js" defer></script>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <title>Rubik's Cube | Vedha Mahesh</title>
+  </head>
+
+  <body>
+    <div id="buttons1" style="display: none;"></div>
+    <div id="canvas-target">
+      <label for="speed" onmouseover="rotate = false" onmouseout="rotate = true">Speed</label>
+      <input type="range" id="speed" onmouseover="rotate = false" onmouseout="rotate = true">
+      <div id="show-hide">Show Manual Buttons</div>
+      <div id="scramble">Scramble</div>
+      <div id="solve">Solve</div>
+    </div>
+    <div id="buttons2" style="display: none;"></div>
+    <a href="https://vedha.tk" id="credits">Made By Vedha Mahesh</a>
+  </body>
+
+</html>
